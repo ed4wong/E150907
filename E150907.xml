@@ -308,7 +308,7 @@
                                               <block type="robot_delay" id="142" inline="true">
                                                 <value name="DELAY">
                                                   <block type="math_number" id="149">
-                                                    <field name="NUM">75</field>
+                                                    <field name="NUM">1000</field>
                                                   </block>
                                                 </value>
                                                 <next>

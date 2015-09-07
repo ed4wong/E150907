@@ -283,7 +283,7 @@
                                         <field name="MODE">WHILE</field>
                                         <value name="NUMBER">
                                           <block type="logic_compare" id="88" inline="true">
-                                            <field name="OP">EQ</field>
+                                            <field name="OP">LT</field>
                                             <value name="A">
                                               <block type="variables_get" id="92">
                                                 <field name="VAR">i</field>

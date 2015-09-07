@@ -33,7 +33,43 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="98"></block>
+      <block type="controls_repeat" id="113" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="140">
+            <field name="NUM">2</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="movement_forward" id="123">
+            <next>
+              <block type="movement_setmotors" id="133" inline="true">
+                <value name="BOTHMOVLEFT">
+                  <block type="math_number" id="154">
+                    <field name="NUM">-100</field>
+                  </block>
+                </value>
+                <value name="BOTHMOVRIGHT">
+                  <block type="math_number" id="167">
+                    <field name="NUM">100</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="robot_delay" id="206" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="219">
+                        <field name="NUM">900</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="movement_stop" id="98"></block>
+        </next>
+      </block>
     </next>
   </block>
 </xml>
